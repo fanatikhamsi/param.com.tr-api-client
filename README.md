@@ -50,10 +50,10 @@ class Config {
 ```
 
 ## Örnekler ##
-Tüm örnek kullanımlar için [`samples/`](samples) klasörünü inceleyebilirsiniz.
+Tüm örnek kullanımlar için [`samples`](https://github.com/fanatikhamsi/param.com.tr-api-client/tree/master/samples) klasörünü inceleyebilirsiniz.
 
 Kart saklama
-```
+```php
 require_once 'config.php';
 
 function saklama()
@@ -71,7 +71,7 @@ function saklama()
 ```
 
 Kart silme
-```
+```php
 require_once 'config.php';
 
 function silme()
