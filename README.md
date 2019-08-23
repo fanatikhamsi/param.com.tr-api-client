@@ -50,6 +50,7 @@ class Config {
 ```
 
 ## Örnekler ##
+saklamaliodeme, nonsecure3dodeme, odeme, bkmodeme, dekont, sorgu, iade, iptal, ozetler, firma_pos_oranlari, #kullanici_pos_oranlari, ozellestirilmis_pos_oranlari, saklama, saklamalistesi, silme
 Tüm örnek kullanımlar için [`samples`](https://github.com/fanatikhamsi/param.com.tr-api-client/tree/master/samples) klasörünü inceleyebilirsiniz.
 
 Kart saklama
