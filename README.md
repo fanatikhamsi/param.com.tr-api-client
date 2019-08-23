@@ -6,7 +6,7 @@ param.com.tr üzerinden PARAM API ile Kredi kartı ile taksitli veya tek çekim 
 
 Bu kütüphane official değildir. Ama param.com.tr PARAM API nin kendi kütüphanelerinden daha günceldir. PARAM API nin geliştirilmesine bağlı olarak zaman içinde güncelliğini yitirebilir. [Issues](https://github.com/fanatikhamsi/param.com.tr-api-client/issues) bölümünden iletebilirsiniz.
 
-**NOT** Client kütüphanesi geliştirmesi PHP 5.4 ortamında gerçekleştirilmiştir. Daha fazla versiyon desteği için yukarıdan travis build detaylarına bakabilirsiniz.
+**NOT** : Client kütüphanesi geliştirmesi PHP 5.4 ortamında gerçekleştirilmiştir. Daha fazla versiyon desteği için yukarıdan travis build detaylarına bakabilirsiniz.
 
 ## Minimum gereksinimler ##
 * [PHP 5.4.0 ve üzeri](https://www.php.net/)
@@ -50,10 +50,10 @@ class Config {
 ```
 
 ## Örnekler ##
-saklamaliodeme, nonsecure3dodeme, odeme, bkmodeme, dekont, sorgu, iade, iptal, ozetler, firma_pos_oranlari, #kullanici_pos_oranlari, ozellestirilmis_pos_oranlari, saklama, saklamalistesi, silme
+saklamaliodeme, nonsecure3dodeme, odeme, bkmodeme, dekont, sorgu, iade, iptal, ozetler, firma_pos_oranlari, kullanici_pos_oranlari, ozellestirilmis_pos_oranlari, saklama, saklamalistesi, silme
 Tüm örnek kullanımlar için [`samples`](https://github.com/fanatikhamsi/param.com.tr-api-client/tree/master/samples) klasörünü inceleyebilirsiniz.
 
-Kart saklama
+**Kart saklama**
 ```php
 require_once 'config.php';
 
@@ -71,7 +71,7 @@ function saklama()
 }
 ```
 
-Kart silme
+**Kart silme**
 ```php
 require_once 'config.php';
 
@@ -85,7 +85,7 @@ function silme()
 }
 ```
 
-Non Secure 3D Ödeme
+**Non Secure 3D Ödeme**
 ```php
 require_once 'config.php';
 
@@ -114,7 +114,7 @@ function nonsecure3dodeme()
 }
 ```
 
-Ödeme
+**Ödeme**
 ```php
 require_once 'config.php';
 
@@ -142,3 +142,4 @@ function odeme()
 }
 
 ```
+[Issues](https://github.com/fanatikhamsi/param.com.tr-api-client/issues) bölümünden görüş, öneri ve isteklerinizi iletebilirsiniz.
