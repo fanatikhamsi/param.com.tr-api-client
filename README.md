@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fanatikhamsi/google-api-php-client.svg?branch=master)](https://travis-ci.org/fanatikhamsi/google-api-php-client)
+[![Build Status](https://travis-ci.org/fanatikhamsi/param.com.tr-api-client.svg?branch=master)](https://travis-ci.org/fanatikhamsi/param.com.tr-api-client)
 
 # PARAM API Client Library PHP #
 
